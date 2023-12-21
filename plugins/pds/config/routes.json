@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "pds.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getAllDevice",
+      "handler": "pds.getAllDevice",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/startAllDevice",
+      "handler": "pds.startAllDevice",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stopAllDevice",
+      "handler": "pds.stopAllDevice",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getBackupCount",
+      "handler": "pds.getBackupCount",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/transferDeviceData",
+      "handler": "pds.transferDeviceData",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

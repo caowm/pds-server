@@ -1,0 +1,28 @@
+{
+  "name": "strapi-plugin-pds",
+  "version": "0.0.0",
+  "description": "医疗设备插件.",
+  "strapi": {
+    "name": "pds",
+    "icon": "plug",
+    "description": "Description of pds plugin."
+  },
+  "dependencies": {},
+  "author": {
+    "name": "caowm",
+    "email": "",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "caowm",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/surgery/stat/query/:table/:year/:month",
+      "handler": "surgery-stat.query",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surgery/stat/build/:table/:year/:month",
+      "handler": "surgery-stat.build",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dashboard/stat/month",
+      "handler": "surgery.statMonth",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dashboard/stat/office",
+      "handler": "surgery.statOffice",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surgery/room/overview",
+      "handler": "surgery.roomsOverview",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surgery/detail",
+      "handler": "surgery.getDetail",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surgery/room/:id/data",
+      "handler": "surgery.deviceData",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surgery/event",
+      "handler": "surgery.getEvent",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

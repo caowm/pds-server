@@ -1,0 +1,42 @@
+{
+  "name": "pds",
+  "private": true,
+  "version": "0.1.0",
+  "description": "医疗设备数据共享",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "0.21.18",
+    "moment": "^2.29.3",
+    "mssql": "^8.1.2",
+    "pg": "^8.7.1",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "sqlite3": "^5.0.8",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-utils": "3.6.8",
+    "utils-merge": "^1.0.1",
+    "watch": "^1.0.2"
+  },
+  "author": {
+    "name": "caowm"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

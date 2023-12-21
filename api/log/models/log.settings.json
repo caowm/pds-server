@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logs",
+  "info": {
+    "name": "日志"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "create_time": {
+      "type": "datetime"
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "debug",
+        "info",
+        "warn",
+        "error"
+      ]
+    },
+    "log_type": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "json"
+    }
+  }
+}
